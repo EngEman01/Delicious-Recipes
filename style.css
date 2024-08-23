@@ -1,0 +1,467 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    font-family: "Poppins",sans-serif;
+}
+
+::selection{
+    background: #fb3434; 
+    color: #fff;
+}
+
+.front{
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+    background-image: url("image/vecteezy_vegetables-set-and-spices-for-cooking-on-dark-background-ai_25480724.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+.front .logo img{
+    width: 150px;
+    transform: translateX(500%);
+}
+
+
+.front .navbar{
+    width: 80%;
+    margin: auto;
+    background: linear-gradient(#ffffff0f,#a8a6a622);
+    /* border: 0.4px solid #ffffff5a; */
+}
+
+
+.front .navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    list-style: none;
+    z-index: 1000;
+}
+
+.front .navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.front .navbar ul li a:hover{
+    color: #fb3434;
+}
+
+.front .container_home{
+   transform: translateY(20%);
+    width: 90%;
+    margin: auto;
+}
+
+.front .container_home h5{
+    text-transform: uppercase;
+    line-height: 4;
+    font-size: 15px;
+}
+
+.front .container_home h1{
+    font-size: 60px;
+    line-height: 2;
+}
+
+.front .container_home p{
+    width: 50%;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.check{
+    margin-top: 50px;
+    width: 150px;
+    height: 40px;
+    background: #fb3434;
+    color: #fff;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.check:hover{
+    background: #443e3e;
+    cursor: pointer;
+}
+
+.about{
+    width: 85%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 50PX;
+}
+
+.about .our h1{
+    line-height: 2;
+    font-size: 40PX;
+}
+
+.about .our p{
+    font-size: 17px;
+    line-height: 1.4;
+    color: #5e5e5e;
+}
+
+.about .our .check:hover{
+    background: #fb3434;
+    box-shadow: 2px 2px 15px 5px #fb343486;
+}
+
+.container_server{
+    width: 100vw;
+    height: 120vh;
+    background: #f7f0f8c8;
+}
+.server{
+    width: 80%;
+    height: 90vh;
+    margin: auto;
+}
+
+.server .head_text h1{
+    transform: translateX(35%);
+    font-size: 30px;
+    line-height: 1.8;
+}
+
+.server .head_text p{
+    transform: translateX(42%);
+    color: #5e5e5e;
+}
+
+.server ul{
+    position: relative;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #fff;
+    border-radius: 5px;
+    height: 100px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.server ul li{
+    /* position: absolute; */
+    width: 16.5%;
+    height: 100%;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.server ul li:hover{
+    background: #fb3434;
+    color: #fff;
+}
+
+.server .meals{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 10%;
+    margin-top: 60px;
+
+}
+
+.server .meals .meal-box{
+    background: #fff;
+    height: 100px;
+    border-radius: 7px;
+    padding: 25px;
+}
+
+.server .meals .meal-box .box-price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.server .meals .meal-box .box-price h2{
+    font-size: 18px;
+    line-height: 3.5;
+}
+
+.server .meals .meal-box .box-price .price{
+    font-size: 21px;
+    color: #fb3434;
+}
+
+.server .meals .meal-box p{
+    color: #443e3e;
+}
+
+.reserve{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("image/vecteezy_pizza-hawaiian-cheese-on-wood-table-homemade-food-concept_12374914.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    
+}
+
+.reserve .color-background{
+    width: 100vw;
+    height: 100%;
+    background-color: #131111b9;
+}
+
+.reserve .reserve-contant{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.reserve .reserve-contant .reserve-text h1{
+    margin-bottom: 50px;
+    font-size: 40px;
+    width: 70%;
+}
+.reserve .reserve-contant .reserve-text p{
+    width: 70%;
+    line-height: 1.3;
+    font-size: 20px;
+}
+
+.reserve .reserve-contant .reserve-form{
+    position: relative;
+    margin-top: 100px;
+}
+
+.reserve .reserve-contant .reserve-form form{
+    width: 400px;
+    height: 500px;
+    padding: 10px;
+    background: #fff;
+}
+.reserve .reserve-contant .reserve-form .input-box{
+    margin-top: 20%;
+}
+
+.reserve .reserve-contant .reserve-form input{
+    color: #5e5e5e; 
+    display: block;
+    width: 85%;
+    height: 22px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+    outline: none;
+    border: 0.5px solid #d5d4d4d0;
+}
+
+.reserve .reserve-contant .reserve-form .check{
+    position: absolute;
+    bottom: 80px;
+    left: 140px;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+
+.reserve .reserve-contant .reserve-form .check:hover{
+    background: #fb3434;
+    box-shadow: 2px 2px 15px 5px #fb343486;
+}
+
+.server .meals .image-meals{
+    width: 100%;
+    margin-top: -30px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 50%;
+    row-gap: 7%;
+
+}
+.server .meals img{
+    width: 350px;
+    height: 280px;
+}
+
+.person{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("image/pexels-photo-349610.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.person .person-info{
+    position: absolute;
+    top: 35%;
+    left: 45%;
+}
+
+.person .person-info .person-image{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+ 
+.person .person-info .stars{
+    width: 90px;
+}
+.person p{
+    position: absolute;
+    bottom: 30%;
+    left: 30%;
+    width: 40%;
+    color: #443e3e;
+}
+
+.blog{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.blog .blog-head{
+    position: absolute;
+    left: 40%;
+    top: 7%;
+}
+
+.blog .blog-head h1{
+    font-size: 27px;
+    word-spacing: 5px;
+    line-height: 1.5;
+}
+.blog .blog-head p{
+    position: absolute;
+    left: -28%;
+    width: 600px;
+    font-size: 17px;
+    word-spacing: 5px;
+}
+
+.blog .all-boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.blog .blog-box{
+    position: relative;
+    display: inline-block;
+    margin-top: 220px;
+    width: 320px;
+    height: 400px;
+    /* background-color: antiquewhite; */
+}
+
+.blog .blog-box img{
+    width: 320px;
+    height: 200px;
+    transition: 0.5s;
+}
+.blog .blog-box .image-food{
+    width: 320px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.blog .blog-box img:hover{
+    transform: scale(1.2);
+}
+
+.blog .blog-box .food-info{
+    width: 90%;
+    margin: auto;
+}
+
+.blog .blog-box .food-info .date{
+    display: inline;
+    color: #fff;
+    padding: 2px;
+    background-color: #000;
+}
+
+.blog .blog-box .food-info .des{
+    position: absolute;
+    top: 60%;
+}
+
+.blog .blog-box .food-info .des h2{
+    margin-bottom: 10px;
+}
+
+.blog .blog-box .food-info .des h2:hover{
+    color: #fb3434;
+}
+
+.blog .blog-box .footer-blog{
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.footer{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 15% 75% 10%;
+}
+
+.footer .top-footer{
+    width: 100%;
+    height: 100%;
+    padding: 0px 20px;
+    background-color: #fb3434;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 4%;
+    align-items: center;
+}
+
+.footer .top-footer h1{
+    margin-bottom: 30px;
+}
+
+.footer .top-footer .open-date{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 0.5px solid #fff;
+}
+
+.footer .top-footer .newsletter input{
+    margin-top: 40px;
+    width: 330px;
+    height: 30px;
+    border-radius: 220px;
+    padding: 10px;
+}
+
+.footer .down-footer{
+    background-color: #1f1c1c;
+    color: #fff;
+    position: relative;
+}
+
+.footer .down-footer p{
+    position: absolute;
+    left: 30%;
+    top: 30%;
+}
+
+.footer .down-footer span{
+    color: #fb3434;
+}
