@@ -5,6 +5,12 @@
     font-family: "Poppins",sans-serif;
 }
 
+body{
+    width: 100svw;
+    height: 100svw;
+    overflow-x: hidden;
+}
+
 ::selection{
     background: #fb3434; 
     color: #fff;
