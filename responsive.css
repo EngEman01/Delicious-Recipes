@@ -1,0 +1,253 @@
+/* Mobile devices (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    /* Front Section */
+    .front {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .front .logo img {
+        transform: translateX(0);
+        width: 120px;
+    }
+
+    .front .navbar ul {
+        flex-direction: column;
+        gap: 15px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .front .container_home h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .front .container_home p {
+        width: 100%;
+        font-size: 16px;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    /* About Section */
+    .about {
+        flex-direction: column;
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    .server .meals {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .server .meals .meal-box {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .server .head_text h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .server .head_text p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .reserve .reserve-contant .reserve-form form {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .reserve .reserve-contant .reserve-text h1 {
+        font-size: 32px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .reserve .reserve-contant .reserve-text p {
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    /* Blog Section */
+    .blog .blog-head h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .blog .blog-head p {
+        font-size: 16px;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .blog .all-boxes {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 0 10%;
+    }
+
+    .blog .blog-box {
+        width: 100%;
+        max-width: 100%;
+        margin: 10px auto;
+    }
+
+    .blog .blog-box img {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 20px 0;
+    }
+
+    .footer .top-footer {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .footer .top-footer h1 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .footer .top-footer .newsletter input {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .footer .down-footer p {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    /* Meals Section */
+    .server .meals .image-meals {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+}
+
+/* Very Small Mobile Devices (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    /* Adjusting fonts for readability */
+    .front .container_home h1 {
+        font-size: 30px;
+    }
+
+    .front .container_home p {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+
+    .reserve .reserve-contant .reserve-text h1 {
+        font-size: 28px;
+    }
+
+    .reserve .reserve-contant .reserve-text p {
+        font-size: 14px;
+    }
+
+    .blog .blog-head h1 {
+        font-size: 22px;
+    }
+
+    .blog .blog-head p {
+        font-size: 14px;
+    }
+
+    .footer .top-footer h1 {
+        font-size: 18px;
+    }
+
+    .footer .top-footer .newsletter input {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .footer .down-footer p {
+        font-size: 12px;
+    }
+
+    /* Blog and Meal Sections */
+    .server .meals .meal-box {
+        padding: 15px;
+    }
+
+    .blog .blog-box {
+        width: 100%;
+    }
+
+    .blog .blog-box img {
+        width: 100%;
+    }
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+    .reserve .reserve-contant {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .reserve .reserve-contant .reserve-text h1 {
+        font-size: 28px; /* Smaller text size */
+        text-align: center;
+    }
+
+    .reserve .reserve-contant .reserve-text p {
+        font-size: 16px; /* Adjust text size */
+        text-align: center;
+    }
+
+    .reserve .reserve-contant .reserve-form {
+        margin-top: 30px;
+        width: 90%;
+    }
+
+    .reserve .reserve-contant .reserve-form input {
+        width: 100%; /* Ensure inputs take up full width */
+    }
+
+    .reserve .reserve-contant .reserve-form .check {
+        width: 100%; /* Full width button */
+        margin-top: 20px;
+        padding: 15px;
+    }
+}
+
+/* Very small mobile (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    .reserve .reserve-contant .reserve-text h1 {
+        font-size: 24px;
+    }
+
+    .reserve .reserve-contant .reserve-text p {
+        font-size: 14px;
+    }
+
+    .reserve .reserve-contant .reserve-form {
+        width: 90%;
+    }
+
+    .reserve .reserve-contant .reserve-form input {
+        font-size: 14px; /* Smaller font size for inputs */
+    }
+
+    .reserve .reserve-contant .reserve-form .check {
+        padding: 12px;
+        font-size: 16px;
+    }
+}
